@@ -14,9 +14,7 @@ the induces of 10,11,12 is taken from their code repo [chemprop](https://github.
 
 Lastly, We also have discussed this issue here: https://github.com/deepchem/deepchem/issues/1711
 
-I sincerely hope that all the later research will be able to split the data set based on these indexes, so that we can make a comparison to each other, otherwise misleading results may be caused by different data splitting results, for example in the paper of 
-
-[Xiong et al's work](https://pubs.acs.org/doi/abs/10.1021/acs.jmedchem.9b00959), they used the different random seed to split their dataset in random split, details can be seen in their code repo: [AttentiveFP](https://github.com/OpenDrugAI/AttentiveFP/tree/master/code)
+I sincerely hope that all the later research will be able to split the data set based on these indexes, so that we can make a comparison to each other, otherwise misleading results may be caused by different data splitting results, for example in the paper of [Xiong et al's work](https://pubs.acs.org/doi/abs/10.1021/acs.jmedchem.9b00959), they used the different random seed to split their dataset in random split, details can be seen in their code repo: [AttentiveFP](https://github.com/OpenDrugAI/AttentiveFP/tree/master/code)
 
 
 ### Benchmark DataSet 
