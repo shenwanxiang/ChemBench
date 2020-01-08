@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/shenwanxiang/ChemBench.git
 cd ChemBench
-# add molmap to PYTHONPATH
+# add to PYTHONPATH
 echo export PYTHONPATH="\$PYTHONPATH:`pwd`" >> ~/.bashrc
 source ~/.bashrc
 ```
