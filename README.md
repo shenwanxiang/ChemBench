@@ -17,8 +17,11 @@ source ~/.bashrc
 
 from chembench import load_data
 df, induces = load_data('ESOL')
-train_idx, valid_idx, test_idx = induces[0]
 
+# get the 3 times random split induces
+train_idx, valid_idx, test_idx = induces[0]
+train_idx, valid_idx, test_idx = induces[1]
+train_idx, valid_idx, test_idx = induces[2]
 ```
 
 This code repo is focused on the data splitting of the benchmarked dataset in the previous study of MelculeNet
