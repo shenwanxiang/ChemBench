@@ -1,6 +1,6 @@
 # MoleculeNet-benchmark-dataset
 
-this code repo focused on the data splitting of the benchmarked dataset in the previous study of MelculeNet
+This code repo is focused on the data splitting of the benchmarked dataset in the previous study of MelculeNet
 ----
 
 ### Backgroud
