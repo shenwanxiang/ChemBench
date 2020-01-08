@@ -12,9 +12,9 @@ The basis of the split is from the literature： [Wu et al's work](https://pubs.
 Note that the ChEMBL dataset is originally from [Mayr et al's work](https://pubs.rsc.org/en/Content/ArticleLanding/2018/SC/c8sc00148k#!divAbstract), the processed data from [Yang et al's work]( https://pubs-acs-org.libproxy1.nus.edu.sg/doi/pdf/10.1021/acs.jcim.9b00237). This dataset is split by the scaffold split method,
 the induces of 10,11,12 is taken from their code repo [chemprop](https://github.com/swansonk14/chemprop/blob/master/splits.tar.gz)
 
-Lastly, We also have discussed this issue here: https://github.com/deepchem/deepchem/issues/1711
-
 I sincerely hope that all the later research will be able to split the data set based on these indexes, so that we can make a comparison to each other, otherwise misleading results may be caused by different data splitting results, for example in the paper of [Xiong et al's work](https://pubs.acs.org/doi/abs/10.1021/acs.jmedchem.9b00959), they used the different random seed to split their dataset in random split, details can be seen in their code repo: [AttentiveFP](https://github.com/OpenDrugAI/AttentiveFP/tree/master/code)
+
+Lastly, We also have discussed this issue here: https://github.com/deepchem/deepchem/issues/1711
 
 
 ### Benchmark DataSet 
