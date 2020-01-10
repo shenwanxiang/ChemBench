@@ -15,7 +15,7 @@ def load_data(task_name):
         dataframe table and the split induces
     '''
     file = os.path.join(curr_path, 'data_and_index', task_name, '%s.csv.gz' % task_name)
-    assert os.path.exists(file), 'no such file: %s !' % file_name
+    assert os.path.exists(file), 'no such file: %s !' % file
     
     pkl_file_match = os.path.join(curr_path, 'data_and_index', task_name, '*.pkl')
     pklfiles = glob(pkl_file_match)
