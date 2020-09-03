@@ -185,7 +185,7 @@ def load_PCBA():
 
 
 
-def load_BBBP(check_smiles = False):
+def load_BBBP():
     task_name = 'BBBP'
     task_type = 'classification'
     description = """The BBBP dataset contains 2039 compounds with their binary permeability properties of Blood-brain barrier"""
@@ -194,12 +194,12 @@ def load_BBBP(check_smiles = False):
     df = pd.read_csv(filename, compression = 'gzip')
     target_cols = ['p_np']
     smiles_col = 'smiles'
-    N = len(df)
+    
     return data(df, smiles_col, target_cols, task_name, task_type, description)
 
 
 
-def load_BACE(check_smiles = False):
+def load_BACE():
     task_name = 'BACE'
     task_type = 'classification'
     description = """The BACE dataset contains 1513 inhibitors with their binary inhibition labels for the target of BACE-1"""
@@ -209,12 +209,12 @@ def load_BACE(check_smiles = False):
     df = df.rename(columns = {'mol': 'smiles'})
     target_cols = ['Class']
     smiles_col = 'smiles'
-    N = len(df)
+    
 
     return data(df, smiles_col, target_cols, task_name, task_type, description)
 
 
-def load_HIV(check_smiles = False):
+def load_HIV():
     task_name = 'HIV'
     task_type = 'classification'
     description = """The HIV dataset conatins 41127 compounds and their binnary ability to inhibit HIV replication."""
@@ -223,7 +223,7 @@ def load_HIV(check_smiles = False):
     df = pd.read_csv(filename, compression = 'gzip')    
     target_cols = ['HIV_active']
     smiles_col = 'smiles'
-    N = len(df)
+    
 
     return data(df, smiles_col, target_cols, task_name, task_type, description)
 
