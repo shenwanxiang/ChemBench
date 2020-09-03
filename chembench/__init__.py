@@ -1,6 +1,12 @@
 import os
 from glob import glob
 import pandas as pd
+import numpy as np
+from tqdm import tqdm
+tqdm.pandas(ascii=True)
+import os
+
+
 
 curr_path = os.path.dirname(__file__)
 
@@ -29,4 +35,6 @@ def load_data(task_name):
         
     df = pd.read_csv(file, compression = 'gzip')
     return df, induces
+
+
 
