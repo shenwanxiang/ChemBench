@@ -1,6 +1,6 @@
 # MoleculeNet & Chemprop Benchmark Dataset and Split Induces
 
-This code repo is focused on the data splitting of the benchmarked dataset in the previous study of MelculeNet. Besides, in order to test the robustness of a model, I created a random 5fold cross validation induces and 5fold cluster split incudes for some of the dataset (ESOL, Lipop, Malaria, PDBbind-full, HIV, BACP, BBBP), I suggest the model performance should also test on these splits. 
+This code repo is focused on the data splitting of the benchmarked dataset in the previous study of MelculeNet. Besides, in order to test the robustness of a model, I created a random 5fold cross validation induces and 5fold cluster split incudes for some of the dataset (ESOL, Lipop, Malaria, PDBbind-full, HIV, BACP, BBBP), I suggest the model performance should also be tested on these splits. 
 
 
 ### 1. Backgroud
@@ -33,7 +33,7 @@ echo export PYTHONPATH="\$PYTHONPATH:`pwd`" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Usage-1: load the dataset and  MoleculeNet's split induces  
+### Usage-1: Load the Dataset and  MoleculeNet's Split Induces  
 
 ```python
 from chembench import load_data
@@ -82,7 +82,7 @@ dataset.load_PCBA()
 
 ```
 
-### Usage-3: Load robustness splits
+### Usage-3: Load Robustness Splits
 
 the cluster split results is [here](https://github.com/shenwanxiang/ChemBench/tree/master/chembench/robustness/cluster_split/cluster_split_results), for example, load the cluster splits and random splits for dataset ESOL:
 ```python
