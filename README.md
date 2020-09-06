@@ -93,6 +93,7 @@ print(len(induces1))
 print(len(induces2))
 ```
 
-[ESOL split chemical space](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
 
-[ESOL split distribution test](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
+![ESOL split chemical space](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
+
+![ESOL split distribution test](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
