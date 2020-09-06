@@ -1,3 +1,7 @@
+In case you want to cite this repo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4016649.svg)](https://doi.org/10.5281/zenodo.4016649)
+
 # MoleculeNet & Chemprop Benchmark Dataset and Split Induces
 
 This code repo is focused on the data splitting of the benchmarked dataset in the previous study of MelculeNet. Besides, in order to test the robustness of a model, I created a random 5fold cross validation induces and 5fold cluster split incudes for some of the dataset (ESOL, Lipop, Malaria, PDBbind-full, HIV, BACP, BBBP), I suggest the model performance should also be tested on these splits. 
