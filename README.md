@@ -93,7 +93,8 @@ print(len(induces1))
 print(len(induces2))
 ```
 
-
+For example, the chemical space of compounds and labels distribution of the ESOL dataset using cluster split : 
 ![ESOL split chemical space](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
 
-![ESOL split distribution test](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
+the Kolmogorov-Smirnov statistic on the distribution for the pairwise groups(clusters): 
+![ESOL split distribution test](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL_stat_test.png)
