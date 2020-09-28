@@ -1,4 +1,4 @@
-In case you want to cite this repo:
+In case you whould like to cite this:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4016649.svg)](https://doi.org/10.5281/zenodo.4016649)
 
