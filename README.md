@@ -1,6 +1,9 @@
-In case you would like to cite this: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4016649.svg)](https://doi.org/10.5281/zenodo.4016649)
+In case you would like to cite this: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4016649.svg)](https://doi.org/10.5281/zenodo.4016649)
 
 ## 1. MolMapNet Dataset
+
+* the following datasets are reported in the paper of "Out-of-the-Box Deep Learning Prediction of Pharmaceutical Properties by Broadly Learned Knowledge-Based Molecular Representations", please find details of these dataset in this paper
 
 <table>
 <thead>
