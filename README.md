@@ -4,7 +4,7 @@ In case you would like to cite this:
 
 ## 1. MolMapNet Dataset
 
-* the following datasets are reported in the paper of <code> <i>"Out-of-the-Box Deep Learning Prediction of Pharmaceutical Properties by Broadly Learned Knowledge-Based Molecular Representations"</i> </code>, please find details of these dataset in this paper
+* the following datasets are reported in the paper of <code> <i>"Out-of-the-Box Deep Learning Prediction of Pharmaceutical Properties by Broadly Learned Knowledge-Based Molecular Representations"</i> </code>, please find details of these datasets in this paper
 
 <table>
 <thead>
