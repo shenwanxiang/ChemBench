@@ -2,7 +2,7 @@ In case you want to cite this repo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4016649.svg)](https://doi.org/10.5281/zenodo.4016649)
 
-# MolMapNet Dataset
+## 1. MolMapNet Dataset
 
 
 |     Data Class    |                                                  Dataset                                                  |                No of Molecules               | No of Tasks | Task Metric |    Task Type   |
