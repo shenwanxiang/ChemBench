@@ -12,7 +12,7 @@ curr_path = os.path.dirname(__file__)
 
 
 
-def get_clsuter_induces(task_name = 'ESOL', induces = "scaffold_5fcv_1rpts"):
+def get_cluster_induces(task_name = 'ESOL', induces = "scaffold_5fcv_1rpts"):
     """
     task_name: {"ESOL", "Lipop", "Malaria", "BACE", "BBBP", "HIV", "PDBbind-full"} 
     induces: {"scaffold_5fcv_1rpts", "random_5fcv_5rpts"}

@@ -6,7 +6,7 @@ from tqdm import tqdm
 tqdm.pandas(ascii=True)
 import os
 
-from .clsuter import get_clsuter_induces
+from .cluster import get_cluster_induces
 
 curr_path = os.path.dirname(__file__)
 
