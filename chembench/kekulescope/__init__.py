@@ -43,8 +43,8 @@ targets = ['A2a',
          'opioid']
 
 
-def load_data(name):
-    filename = os.path.join(os.path.dirname(__file__), name, name + '.sdf')
+def load_data(name, data_type = 'cell-lines'):
+    filename = os.path.join(os.path.dirname(__file__), data_type, name, name + '.sdf')
     suppl = Chem.SDMolSupplier(filename)
     mols = [x for x in suppl if x is not None]
     my_smiles=[Chem.MolToSmiles(submol) for submol in mols]

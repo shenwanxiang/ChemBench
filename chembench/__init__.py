@@ -6,7 +6,7 @@ from tqdm import tqdm
 tqdm.pandas(ascii=True)
 import os
 
-from .robustness import get_robustness_induces
+from .clsuter import get_clsuter_induces
 
 curr_path = os.path.dirname(__file__)
 
