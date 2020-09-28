@@ -115,7 +115,7 @@ In case you would like to cite this:
   </tr>
   <tr>
     <td>ClinTox Clinical trial toxicity</td>
-    <td>1484</td>
+    <td>1478</td>
     <td>2</td>
     <td>ROC_AUC</td>
     <td>Classification</td>
@@ -137,7 +137,7 @@ In case you would like to cite this:
   </tr>
   <tr>
     <td>BBBP Blood-brain barrier penetration</td>
-    <td>2050</td>
+    <td>2039</td>
     <td>1</td>
     <td>ROC_AUC</td>
     <td>Classification</td>
