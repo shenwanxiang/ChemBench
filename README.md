@@ -3,154 +3,142 @@ In case you want to cite this repo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4016649.svg)](https://doi.org/10.5281/zenodo.4016649)
 
 ## 1. MolMapNet Dataset
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
-.tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-6rx6{background-color:#FCFBE3;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;text-align:left;
-  vertical-align:top}
-.tg .tg-zda1{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
-.tg .tg-wgsn{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;text-align:left;vertical-align:top}
-.tg .tg-qho4{background-color:#FCFBE3;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;
-  vertical-align:top}
-</style>
-<table class="tg">
+
+<table>
 <thead>
   <tr>
-    <th class="tg-zda1">Data Class</th>
-    <th class="tg-wgsn">Dataset</th>
-    <th class="tg-wgsn">No. of Molecules</th>
-    <th class="tg-wgsn">No. of Tasks</th>
-    <th class="tg-wgsn">Task Metric</th>
-    <th class="tg-wgsn">Task Type</th>
+    <th>Data Class</th>
+    <th>Dataset</th>
+    <th>No. of Molecules</th>
+    <th>No. of Tasks</th>
+    <th>Task Metric</th>
+    <th>Task Type</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-qho4" rowspan="3">Physico-chemical</td>
-    <td class="tg-6rx6">ESOL Water solubility</td>
-    <td class="tg-6rx6">1128</td>
-    <td class="tg-6rx6">1</td>
-    <td class="tg-6rx6">RMSE</td>
-    <td class="tg-6rx6">Regression</td>
+    <td rowspan="3">Physico-chemical</td>
+    <td>ESOL Water solubility</td>
+    <td>1128</td>
+    <td>1</td>
+    <td>RMSE</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-wgsn">FreeSolv Solvation free energy</td>
-    <td class="tg-wgsn">642</td>
-    <td class="tg-wgsn">1</td>
-    <td class="tg-wgsn">RMSE</td>
-    <td class="tg-wgsn">Regression</td>
+    <td>FreeSolv Solvation free energy</td>
+    <td>642</td>
+    <td>1</td>
+    <td>RMSE</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-6rx6">Lipop Lipophilicity</td>
-    <td class="tg-6rx6">4200</td>
-    <td class="tg-6rx6">1</td>
-    <td class="tg-6rx6">RMSE</td>
-    <td class="tg-6rx6">Regression</td>
+    <td>Lipop Lipophilicity</td>
+    <td>4200</td>
+    <td>1</td>
+    <td>RMSE</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-zda1">Molecular binding</td>
-    <td class="tg-wgsn">PDBbind-F, PDBbind-C, PDBbind-R Ligand-protein binding: full, core, refined (3 datasets)</td>
-    <td class="tg-wgsn">9880, 168, 3040</td>
-    <td class="tg-wgsn">1 for each</td>
-    <td class="tg-wgsn">RMSE</td>
-    <td class="tg-wgsn">Regression</td>
+    <td>Molecular binding</td>
+    <td>PDBbind-F, PDBbind-C, PDBbind-R Ligand-protein binding: full, core, refined (3 datasets)</td>
+    <td>9880, 168, 3040</td>
+    <td>1 for each</td>
+    <td>RMSE</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-qho4" rowspan="7">Bio-activity</td>
-    <td class="tg-6rx6">PCBA PubChem HTS bioAssay</td>
-    <td class="tg-6rx6">437929</td>
-    <td class="tg-6rx6">128</td>
-    <td class="tg-6rx6">PRC-AUC</td>
-    <td class="tg-6rx6">Classification</td>
+    <td rowspan="7">Bio-activity</td>
+    <td>PCBA PubChem HTS bioAssay</td>
+    <td>437929</td>
+    <td>128</td>
+    <td>PRC-AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-wgsn">MUV PubChem bioAssay</td>
-    <td class="tg-wgsn">93087</td>
-    <td class="tg-wgsn">17</td>
-    <td class="tg-wgsn">PRC-AUC</td>
-    <td class="tg-wgsn">Classification</td>
+    <td>MUV PubChem bioAssay</td>
+    <td>93087</td>
+    <td>17</td>
+    <td>PRC-AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-6rx6">ChEMBL bioassay activity dataset</td>
-    <td class="tg-6rx6">456331</td>
-    <td class="tg-6rx6">1310</td>
-    <td class="tg-6rx6">ROC_AUC</td>
-    <td class="tg-6rx6">Classification</td>
+    <td>ChEMBL bioassay activity dataset</td>
+    <td>456331</td>
+    <td>1310</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-wgsn">Cancer cell-line IC50 A2780, CCRF-CEM12, DU-14512, HCT-1512, KB12, LoVo12, PC-312, SK-OV-312 (8 datasets)</td>
-    <td class="tg-wgsn">2255, 3047, 2512,994, 2731, 1120, 4294, 1589</td>
-    <td class="tg-wgsn">1 for each</td>
-    <td class="tg-wgsn">R2</td>
-    <td class="tg-wgsn">Regression</td>
+    <td>Cancer cell-line IC50 A2780, CCRF-CEM12, DU-14512, HCT-1512, KB12, LoVo12, PC-312, SK-OV-312 (8 datasets)</td>
+    <td>2255, 3047, 2512,994, 2731, 1120, 4294, 1589</td>
+    <td>1 for each</td>
+    <td>R2</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-6rx6">Malaria Anti-malarial EC508</td>
-    <td class="tg-6rx6">9998</td>
-    <td class="tg-6rx6">1</td>
-    <td class="tg-6rx6">RMSE</td>
-    <td class="tg-6rx6">Regression</td>
+    <td>Malaria Anti-malarial EC508</td>
+    <td>9998</td>
+    <td>1</td>
+    <td>RMSE</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-wgsn">BACE-1 benchmark set, ChEMBL novel set, ChEMBL common set, Clinical drugs</td>
-    <td class="tg-wgsn">1513, 395, 5324, 26</td>
-    <td class="tg-wgsn">1</td>
-    <td class="tg-wgsn">ROC_AUC</td>
-    <td class="tg-wgsn">Classification</td>
+    <td>BACE-1 benchmark set, ChEMBL novel set, ChEMBL common set, Clinical drugs</td>
+    <td>1513, 395, 5324, 26</td>
+    <td>1</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-6rx6">HIV replication inhibition</td>
-    <td class="tg-6rx6">41127</td>
-    <td class="tg-6rx6">1</td>
-    <td class="tg-6rx6">ROC_AUC</td>
-    <td class="tg-6rx6">Classification</td>
+    <td>HIV replication inhibition</td>
+    <td>41127</td>
+    <td>1</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-zda1" rowspan="3">Toxicity</td>
-    <td class="tg-wgsn">Tox21Toxicology in the 21st century</td>
-    <td class="tg-wgsn">7831</td>
-    <td class="tg-wgsn">12</td>
-    <td class="tg-wgsn">ROC_AUC</td>
-    <td class="tg-wgsn">Classification</td>
+    <td rowspan="3">Toxicity</td>
+    <td>Tox21Toxicology in the 21st century</td>
+    <td>7831</td>
+    <td>12</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-6rx6">SIDER Adverse drug reactions of marketed drugs</td>
-    <td class="tg-6rx6">1427</td>
-    <td class="tg-6rx6">27</td>
-    <td class="tg-6rx6">ROC_AUC</td>
-    <td class="tg-6rx6">Classification</td>
+    <td>SIDER Adverse drug reactions of marketed drugs</td>
+    <td>1427</td>
+    <td>27</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-wgsn">ClinTox Clinical trial toxicity</td>
-    <td class="tg-wgsn">1484</td>
-    <td class="tg-wgsn">2</td>
-    <td class="tg-wgsn">ROC_AUC</td>
-    <td class="tg-wgsn">Classification</td>
+    <td>ClinTox Clinical trial toxicity</td>
+    <td>1484</td>
+    <td>2</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-qho4" rowspan="3">Pharmacokinetic</td>
-    <td class="tg-6rx6">CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition</td>
-    <td class="tg-6rx6">16896</td>
-    <td class="tg-6rx6">5</td>
-    <td class="tg-6rx6">ROC_AUC</td>
-    <td class="tg-6rx6">Classification</td>
+    <td rowspan="3">Pharmacokinetic</td>
+    <td>CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition</td>
+    <td>16896</td>
+    <td>5</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
   <tr>
-    <td class="tg-wgsn">LMC-H, LMC-R, LMC-M (Liver Mocrosomal Clearance in human, rat, mouse)</td>
-    <td class="tg-wgsn">8755</td>
-    <td class="tg-wgsn">3</td>
-    <td class="tg-wgsn">R2</td>
-    <td class="tg-wgsn">Regression</td>
+    <td>LMC-H, LMC-R, LMC-M (Liver Mocrosomal Clearance in human, rat, mouse)</td>
+    <td>8755</td>
+    <td>3</td>
+    <td>R2</td>
+    <td>Regression</td>
   </tr>
   <tr>
-    <td class="tg-6rx6">BBBP Blood¨Cbrain barrier penetration</td>
-    <td class="tg-6rx6">2050</td>
-    <td class="tg-6rx6">1</td>
-    <td class="tg-6rx6">ROC_AUC</td>
-    <td class="tg-6rx6">Classification</td>
+    <td>BBBP Blood¨Cbrain barrier penetration</td>
+    <td>2050</td>
+    <td>1</td>
+    <td>ROC_AUC</td>
+    <td>Classification</td>
   </tr>
 </tbody>
 </table>
