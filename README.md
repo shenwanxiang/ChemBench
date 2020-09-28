@@ -134,7 +134,7 @@ In case you want to cite this repo:
     <td>Regression</td>
   </tr>
   <tr>
-    <td>BBBP Blood¨Cbrain barrier penetration</td>
+    <td>BBBP Blood-brain barrier penetration</td>
     <td>2050</td>
     <td>1</td>
     <td>ROC_AUC</td>
@@ -212,7 +212,7 @@ dataset.load_PCBA()
 
 ### Usage-3: Load Robustness Splits
 
-the cluster split results is [here](https://github.com/shenwanxiang/ChemBench/tree/master/chembench/robustness/cluster_split/cluster_split_results), for example, load the cluster splits and random splits for dataset ESOL:
+the cluster split results is [here](https://github.com/shenwanxiang/ChemBench/tree/master/chembench/cluster/cluster_split/cluster_split_results), for example, load the cluster splits and random splits for dataset ESOL:
 ```python
 from chembench import get_clsuter_induces
 induces1 = get_clsuter_induces("ESOL", induces = "random_5fcv_5rpts")
@@ -222,7 +222,7 @@ print(len(induces2))
 ```
 
 For example, the chemical space of the ESOL dataset using 5fold cluster split : 
-![ESOL split chemical space](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL.png)
+![ESOL split chemical space](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/cluster/cluster_split/cluster_split_results/ESOL/ESOL.png)
 
 the Kolmogorov-Smirnov statistic on the distribution for the pairwise groups(clusters): 
 ![ESOL split distribution test](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/robustness/cluster_split/cluster_split_results/ESOL/ESOL_stat_test.png)
