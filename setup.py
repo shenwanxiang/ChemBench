@@ -22,6 +22,8 @@ package_data = []
 for file_ending in data_file_endings:
     package_data += glob.glob(f'**/*{file_ending}', recursive=True)
 
+package_data = [os.path.relpath(p, 'chembench') for p in package_data]
+
 setup(name='ChemBench',
       version=__version__,
       author='Shen Wanxiang',
