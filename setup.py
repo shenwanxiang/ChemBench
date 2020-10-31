@@ -33,7 +33,7 @@ setup(name='ChemBench',
           'pandas>=0.24.2'
       ],
       include_package_data=True,
-      package_data={'ChemBench': ['notebook/*']},
+      package_data={'chembench': ['notebook/*']},
       zip_safe=True,
 
       classifiers=(
