@@ -1,6 +1,7 @@
 import io
 import os
 import re
+import glob
 
 from setuptools import find_packages, setup
 
@@ -15,6 +16,11 @@ __version__ = version_matches.group(1)
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
+
+data_file_endings = ['.pkl', '.csv', '.idx', '.sdf', '.csv.gz']
+package_data = []
+for file_ending in data_file_endings:
+    package_data += glob.glob(f'**/{file_ending}', recursive=True)
 
 setup(name='ChemBench',
       version=__version__,
@@ -33,7 +39,7 @@ setup(name='ChemBench',
           'pandas>=0.24.2'
       ],
       include_package_data=True,
-      package_data={'chembench': ['notebook/*']},
+      package_data={'chembench': package_data},
       zip_safe=True,
 
       classifiers=(
