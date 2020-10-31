@@ -28,10 +28,12 @@ setup(name='ChemBench',
       packages=find_packages(),
 
       install_requires=[
-          'numpy>=1.16.3', 
+          'numpy>=1.16.3',
           'tqdm>=4.32.1',
           'pandas>=0.24.2'
-      ],      include_package_data=True,
+      ],
+      include_package_data=True,
+      package_data={'ChemBench': ['notebook/*']},
       zip_safe=True,
 
       classifiers=(
