@@ -20,7 +20,7 @@ with open('README.md', 'r') as fh:
 data_file_endings = ['.pkl', '.csv', '.idx', '.sdf', '.csv.gz']
 package_data = []
 for file_ending in data_file_endings:
-    package_data += glob.glob(f'**/{file_ending}', recursive=True)
+    package_data += glob.glob(f'**/*{file_ending}', recursive=True)
 
 setup(name='ChemBench',
       version=__version__,
