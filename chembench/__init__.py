@@ -1,3 +1,5 @@
+__version__ = '0.1.0'
+
 import os
 from glob import glob
 import pandas as pd
