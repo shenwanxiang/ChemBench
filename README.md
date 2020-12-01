@@ -1,4 +1,4 @@
-In case you would like to cite this: 
+In case you would like to cite this:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4054866.svg)](https://doi.org/10.5281/zenodo.4054866)
 
@@ -157,12 +157,10 @@ These benchmark datasets and the split induces have benn generated in this repo,
 ```bash
 git clone https://github.com/shenwanxiang/ChemBench.git
 cd ChemBench
-# add to PYTHONPATH
-echo export PYTHONPATH="\$PYTHONPATH:`pwd`" >> ~/.bashrc
-source ~/.bashrc
+pip install -e .
 ```
 
-### Usage-1: Load the Dataset and  MoleculeNet's Split Induces  
+### Usage-1: Load the Dataset and  MoleculeNet's Split Induces
 
 ```python
 from chembench import load_data
@@ -175,7 +173,7 @@ train_idx, valid_idx, test_idx = induces[2]
 ```
 ----
 
-### Usage-2: Load Dataset As Data Object 
+### Usage-2: Load Dataset As Data Object
 
 ```python
 from chembench import dataset
@@ -185,7 +183,7 @@ data.y
 data.description
 
 
-## regression 
+## regression
 dataset.load_Lipop()
 dataset.load_ESOL()
 dataset.load_FreeSolv()
@@ -223,8 +221,8 @@ print(len(induces1))
 print(len(induces2))
 ```
 
-For example, the chemical space of the ESOL dataset using 5fold cluster split : 
+For example, the chemical space of the ESOL dataset using 5fold cluster split :
 ![ESOL split chemical space](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/cluster/cluster_split/cluster_split_results/ESOL/ESOL.png)
 
-the Kolmogorov-Smirnov statistic on the distribution for the pairwise groups(clusters): 
+the Kolmogorov-Smirnov statistic on the distribution for the pairwise groups(clusters):
 ![ESOL split distribution test](https://github.com/shenwanxiang/ChemBench/blob/master/chembench/cluster/cluster_split/cluster_split_results/ESOL/ESOL_stat_test.png)
