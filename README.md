@@ -154,12 +154,19 @@ These benchmark datasets and the split induces have benn generated in this repo,
 ----
 
 ### Installation
+
+Direct installation:
+
+```bash
+pip install git+https://github.com/shenwanxiang/ChemBench.git
+```
+
+Developer installation:
+
 ```bash
 git clone https://github.com/shenwanxiang/ChemBench.git
 cd ChemBench
-# add to PYTHONPATH
-echo export PYTHONPATH="\$PYTHONPATH:`pwd`" >> ~/.bashrc
-source ~/.bashrc
+pip install -e .
 ```
 
 ### Usage-1: Load the Dataset and  MoleculeNet's Split Induces  
