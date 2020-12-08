@@ -212,13 +212,13 @@ dataset.load_PCBA()
 ```
 ----
 
-### Usage-3: Load CLuster Splits
+### Usage-3: Load Cluster Splits
 
 the cluster split results is [here](https://github.com/shenwanxiang/ChemBench/tree/master/chembench/cluster/cluster_split/cluster_split_results), for example, load the cluster splits and random splits for dataset ESOL:
 ```python
-from chembench import get_clsuter_induces
-induces1 = get_clsuter_induces("ESOL", induces = "random_5fcv_5rpts")
-induces2 = get_clsuter_induces("ESOL", induces = "scaffold_5fcv_1rpts")
+from chembench import get_cluster_induces
+induces1 = get_cluster_induces("ESOL", induces = "random_5fcv_5rpts")
+induces2 = get_cluster_induces("ESOL", induces = "scaffold_5fcv_1rpts")
 print(len(induces1))
 print(len(induces2))
 ```
