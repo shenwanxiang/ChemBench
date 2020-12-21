@@ -1,6 +1,0 @@
-graft chembench
-
-global-exclude *.py[cod] __pycache__ *.so *.dylib .DS_Store
-global-exclude *.ipynb
-
-include LICENSE README.md
