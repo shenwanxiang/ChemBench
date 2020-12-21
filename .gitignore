@@ -10,3 +10,5 @@ debug
 */.ipynb_checkpoints/*
 */__pycache__/*
 */tempignore/*
+.DS_Store
+*.egg-info
